@@ -75,7 +75,6 @@
     "mockery": "2.1.0",
     "npm-html2js": "0.1.8",
     "phantomjs-polyfill-find": "ptim/phantomjs-polyfill-find",
-    "phantomjs-prebuilt": "2.1.16",
     "requirejs": "2.3.5",
     "snyk": "^1.299.0",
     "watchify": "3.9.0"
