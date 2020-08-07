@@ -5,7 +5,7 @@ Note that this repository has been migrated from Mike Goodwin's [original](https
 </p>
 
 [![Build Status](https://travis-ci.org/owasp/threat-dragon-core.svg?branch=main)](https://travis-ci.org/owasp/threat-dragon-core)
-[![codecov.io](http://codecov.io/github/owasp/threat-dragon-core/coverage.svg?branch=main)](http://codecov.io/github/owasp/threat-drago-core?branch=main)
+[![codecov.io](http://codecov.io/github/owasp/threat-dragon-core/coverage.svg?branch=main)](http://codecov.io/github/owasp/threat-dragon-core?branch=main)
 [![Code Climate](https://codeclimate.com/github/owasp/threat-dragon-core/badges/gpa.svg)](https://codeclimate.com/github/owasp/threat-dragon-core)
 [![GitHub license](https://img.shields.io/github/license/owasp/threat-dragon-core.svg)](LICENSE.txt)
 [![Dependency Status](https://dependencyci.com/github/owasp/threat-dragon-core/badge)](https://dependencyci.com/github/owasp/threat-dragon-core)
