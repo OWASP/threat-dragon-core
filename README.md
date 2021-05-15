@@ -1,76 +1,26 @@
-Note that this repository has been migrated from Mike Goodwin's [original](https://github.com/mike-goodwin/owasp-threat-dragon-core) , which has the issues and pull requests from June 2016 up to June 2020.
+# [OWASP](https://www.owasp.org) Threat Dragon Core has a new home!
+
+## Threat Dragon Core has been moved into [OWASP/threat-dragon](https://github.com/OWASP/threat-dragon).
+
+A historical version is kept here on the [1.4.0 branch](https://github.com/OWASP/threat-dragon-core/tree/1.4.0).  All new development, bugfixes, etc will take place in the [threat-dragon](https://github.com/OWASP/threat-dragon), and all issues have been migrated.
+
+
+Note that this repository has been migrated from Mike Goodwin's [original](https://github.com/mike-goodwin/owasp-threat-dragon-core) , which has the issues and pull requests from June 2016 up to June 2020, until they were migrated to [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon) in May, 2021.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/owasp/threat-dragon-desktop/main/content/images/threatdragon_logo_image.svg" width="200" alt="Threat Dragon Logo"/>
 </p>
 
-[![Build Status](https://travis-ci.org/owasp/threat-dragon-core.svg?branch=main)](https://travis-ci.org/owasp/threat-dragon-core)
-[![codecov.io](http://codecov.io/github/owasp/threat-dragon-core/coverage.svg?branch=main)](http://codecov.io/github/owasp/threat-dragon-core?branch=main)
-[![GitHub license](https://img.shields.io/github/license/owasp/threat-dragon-core.svg)](LICENSE.txt)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/OWASP/threat-dragon-core.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/OWASP/threat-dragon-core/context:javascript)
 
-# [OWASP](https://www.owasp.org) Threat Dragon #
-
-Threat Dragon is a free, open-source, cross-platform threat modelling application including system diagramming and a rule
-engine to auto-generate threats/mitigations. It is an [OWASP Incubator Project](https://owasp.org/www-project-threat-dragon/)
-and follows the values and principles of the [threat modeling manifesto](https://www.threatmodelingmanifesto.org/).
-The roadmap for the project is a great UX, a powerful rule engine and integration with other development lifecycle tools.
-
-The application comes in two variants:
-
-1. [**A web application**](https://github.com/owasp/threat-dragon): For the web application, models files
-are stored in GitHub (other storage will become available). We are currently maintaining
-[a working protoype](https://threatdragon.org) in synch with the master code branch.
-
-2. [**A desktop application**](https://github.com/owasp/threat-dragon-desktop): This is based on
-[Electron](https://electron.atom.io/). There are installers available for both Windows and Mac OSX, as well as
-rpm and debian packages for Linux. For this variant models are stored on the local filesystem.
-
-[End user help](https://threatdragon.github.io) is available for both variants.
-
-This repository contains the core files and modules that are shared between both the web and desktop variant.
-
-## Code of Conduct ##
-
-We ask that everyone who contributes to the Threat Dragon project follow the [Code of Conduct](CODE_OF_CONDUCT.md).
-
-# Installing and building #
-
-Clone the repo and run
-
-`npm install`
-
-There are a number of test scripts included in `package.json`. For example:
-
-`npm run test-client-chrome`
-
-The main test script runs tests on PhantomJS and FireFox (and also lints the code):
-
-`npm test`
-
-There are two main build script, one to pre-compile the angular templates to JavaScript:
-
-`npm run build-templates`
-
-and one to bundle and minify the core CSS:
-
-`npm run bundle-css`
-
-Both of these can be run together using
-
-`npm run build`
 
 # Contributing #
 
-Pull requests, feature requests, bug reports and feedback of any kind are very welcome, please refer to the page for [contributors](CONTRIBUTING.md). 
-
-We are trying to keep the test coverage relatively high, so please try to include tests in any PRs and make PRs on the development branch.
-There are some [developer notes](dev-notes.md) to help get started.
+Pull requests, feature requests, bug reports and feedback of any kind are very welcome, please head over to the [OWASP Threat Dragon repository](https://github.com/OWASP/threat-dragon) and check out the [contributing page](https://github.com/OWASP/threat-dragon/blob/main/CONTRIBUTING.md) to get strated!
 
 # Vulnerability disclosure #
 
 If you find a vulnerability in this project please let us know ASAP and we will fix it as a priority.
-For secure disclosure, please see the [security policy](SECURITY.md).
+For secure disclosure, please see the [security policy](https://github.com/OWASP/threat-dragon/blob/main/SECURITY.md).
 
 ### Project leaders
 * Mike Goodwin (mike.goodwin@owasp.org)
